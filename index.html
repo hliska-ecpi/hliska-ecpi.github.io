@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Responsive webpage with Flexbox layout and a contact form." />
+  <meta name="keywords" content="HTML, CSS, Flexbox, Media Queries, Form" />
+  <meta name="author" content="Your Name" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Webpage</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Responsive Webpage!</h1>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <section id="about" class="flex-section">
+      <h2>About Me</h2>
+      <p>I am passionate about web development and design, and I'm learning to build responsive websites using modern HTML and CSS features like Flexbox and media queries.</p>
+    </section>
+
+<section id="projects" class="flex-section projects">
+  <h2>Project Showcase</h2>
+  <div class="project-container">
+    <div class="project-card">
+      <img src="https://via.placeholder.com/300x180.png?text=Portfolio+Website" alt="Portfolio Website Screenshot" />
+      <h3>Portfolio Website</h3>
+      <p>This is a personal website that highlights my skills, background, and past work. It includes smooth scrolling, responsive design, and custom styling with CSS3.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="https://via.placeholder.com/300x180.png?text=Blog+Platform" alt="Blog Platform Screenshot" />
+      <h3>Blog Platform</h3>
+      <p>A simple blogging platform built with HTML and CSS, allowing users to post articles and browse content. Styled for readability with responsive layouts for mobile devices.</p>
+    </div>
+  </div>
+</section>
+
+
+    <section id="contact" class="flex-section">
+      <h2>Contact Me</h2>
+      <form class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" />
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <input type="submit" value="Send Message" />
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Responsive Webpage. All rights reserved &hearts;</p>
+  </footer>
+</body>
+</html>
